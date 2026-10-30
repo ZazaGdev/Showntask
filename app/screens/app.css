@@ -27,7 +27,8 @@ nav { width: 200px; flex: none; background: var(--panel); border-right: 1px soli
 .recstate { margin-top: auto; font-size: 12px; color: var(--muted); padding: 8px; }
 .recstate.live { color: var(--rec); }
 
-main { flex: 1; overflow: auto; padding: 18px 22px 40px; }
+/* The page still scrolls by wheel and trackpad; the owner asked for the bright system scrollbar gone. */
+main { flex: 1; overflow: auto; padding: 18px 22px 40px; scrollbar-width: none; }
 .bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .bar .grow { flex: 1; }
 .search { min-width: 220px; flex: 1; max-width: 420px; }

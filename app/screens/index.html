@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' file: data:; media-src file:">
+<link rel="stylesheet" href="app.css">
+<title>Showntask</title>
+</head>
+<body>
+<nav id="nav">
+  <div class="brand"><span class="logo"></span>Showntask</div>
+  <button data-page="library" class="navbtn">Recordings</button>
+  <button data-page="settings" class="navbtn">Settings</button>
+  <button data-page="connect" class="navbtn">Connect an agent</button>
+  <div id="recstate" class="recstate"></div>
+</nav>
+<main id="page"></main>
+<div id="toast" class="toast" hidden></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

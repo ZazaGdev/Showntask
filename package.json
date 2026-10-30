@@ -1,0 +1,56 @@
+{
+  "name": "showntask",
+  "productName": "Showntask",
+  "version": "0.1.0",
+  "description": "Record your screen and voice, and let your own agent turn it into tasks",
+  "author": "Zaza Gejadze",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "smoke": "electron . --smoke",
+    "test": "node --test \"test/**/*.test.js\"",
+    "icon": "node build/make-icon.mjs",
+    "dist": "electron-builder --win nsis --publish never",
+    "pack": "electron-builder --win dir --publish never"
+  },
+  "devDependencies": {
+    "electron": "44.5.1",
+    "electron-builder": "26.15.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
+  },
+  "build": {
+    "appId": "com.zazagdev.showntask",
+    "productName": "Showntask",
+    "asar": false,
+    "npmRebuild": false,
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "app/**",
+      "prompts/**",
+      "package.json",
+      "LICENSE"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Showntask",
+      "artifactName": "Showntask-Setup-${version}.exe"
+    }
+  }
+}

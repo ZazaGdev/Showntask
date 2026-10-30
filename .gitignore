@@ -1,0 +1,8 @@
+node_modules/
+dist/
+out/
+*.log
+test/fixtures/big/
+CLAUDE.md
+.claude/
+docs/plans/

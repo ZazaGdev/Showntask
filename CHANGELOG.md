@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 (2026-10-30)
+
+- The main window no longer shows a bright white scrollbar; its pages still scroll by wheel and
+  trackpad.
+
 ## 0.1.1 (2026-10-30)
 
 - New logo: screen-capture corners around a check, with a red record dot. Used for the app,

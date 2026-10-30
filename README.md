@@ -1,4 +1,4 @@
-# Showntask
+# <img src="build/icon.png" alt="" width="40" align="top"> Showntask
 
 Record your screen and talk. Your own AI agent turns it into tasks, with screenshots.
 

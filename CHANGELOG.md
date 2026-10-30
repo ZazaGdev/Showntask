@@ -1,6 +1,11 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.1.1 (2026-10-30)
+
+- New logo: screen-capture corners around a check, with a red record dot. Used for the app,
+  the installer, the taskbar and the sidebar.
+
+## 0.1.0 (2026-10-30)
 
 First version, Windows.
 

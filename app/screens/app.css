@@ -21,7 +21,7 @@ h1 { font-size: 20px; margin: 0; } h2 { font-size: 16px; margin: 18px 0 8px; } h
 
 nav { width: 200px; flex: none; background: var(--panel); border-right: 1px solid var(--line); padding: 14px 10px; display: flex; flex-direction: column; gap: 4px; }
 .brand { font-weight: 700; font-size: 16px; padding: 4px 8px 14px; display: flex; align-items: center; gap: 8px; }
-.logo { width: 16px; height: 16px; border-radius: 50%; background: var(--rec); box-shadow: 0 0 0 3px #3a1b1d; }
+.logo { width: 22px; height: 22px; }
 .navbtn { text-align: left; background: transparent; border-color: transparent; }
 .navbtn.on { background: var(--hover); border-color: var(--line); }
 .recstate { margin-top: auto; font-size: 12px; color: var(--muted); padding: 8px; }

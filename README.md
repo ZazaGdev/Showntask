@@ -11,11 +11,22 @@ through the connectors you already have.
 No API keys, no account, no cloud. Showntask never calls an AI model; your agent does the work on
 your own subscription.
 
-Free and open source (MIT). Windows for now.
+Free and open source (MIT). Windows 10 and 11 for now.
+
+![A recording's Tasks tab: tasks your agent wrote from a ten-minute play test, each with steps, a done-when line and the frames it picked](docs/images/tasks.png)
+
+## Quick start
+
+1. Install from [Releases](https://github.com/ZazaGdev/Showntask/releases/latest).
+2. Connect your agent once: open **Connect an agent** in the app, copy the line for Claude Code,
+   Codex, Cursor, Claude Desktop or VS Code, and run or paste it (details [below](#connect-an-agent)).
+3. Press **Ctrl+Alt+T**, drag over an area, talk through what you see, press **Ctrl+Alt+T** again.
+4. Ask your agent: "make tasks from my last Showntask recording".
 
 ## Install
 
-Download `Showntask-Setup-<version>.exe` from Releases and run it. The installer is not signed
+Download `Showntask-Setup-<version>.exe` from
+[Releases](https://github.com/ZazaGdev/Showntask/releases/latest) and run it. The installer is not signed
 yet, so Windows SmartScreen shows "Windows protected your PC": click **More info**, then
 **Run anyway**.
 
@@ -36,6 +47,8 @@ Settings at that folder instead.
    connector and Showntask remembers what went where.
 
 **Import a video** you already have (OBS, Loom, a phone) from the Recordings page.
+
+![The Recordings page: search, Import a video, New area and Record](docs/images/recordings.png)
 
 ## Connect an agent
 
